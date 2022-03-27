@@ -1,0 +1,1 @@
+# camunda-rpa-bridge-image
