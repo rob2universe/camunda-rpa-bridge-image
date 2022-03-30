@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  camunda-rapa-bridge:
+    container_name: camunda-rpa-bridge
+    image: sleek/camunda-rpa
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    environment:
+     - logging.level.root=info
+#    ports:
+#    - "8080:8080"
+
